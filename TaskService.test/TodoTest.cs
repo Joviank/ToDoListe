@@ -1,4 +1,8 @@
-﻿namespace TaskService.test;
+﻿using Xunit;
+using System.Linq;
+using TaskService;
+
+namespace TaskService.test;
 
 public class TodoTest
 {
