@@ -16,4 +16,5 @@ app.UseSwaggerUI();
 
 app.MapControllers();
 app.MapHealthChecks("health");
+app.Urls.Add("http://0.0.0.0:80");
 app.Run();
